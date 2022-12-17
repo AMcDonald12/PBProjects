@@ -4,7 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 URL = "http://orteil.dashnet.org/experiments/cookie/"
-driver_path = Service("/Users/alexmcdonald/Desktop/100_days_of_code_course/chromedriver")
+#add path to your chrome driver below
+driver_path = Service("ADD PATH HERE")
 driver = webdriver.Chrome(service=driver_path)
 driver.get(URL)
 
